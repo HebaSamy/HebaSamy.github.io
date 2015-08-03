@@ -1,0 +1,122 @@
+nav {
+			font-size: 1.5em;
+			margin: -80px 0px 0px;
+			font-family: Constantia;
+			padding:0px;
+			
+		}
+		nav ul{
+			-webkit-padding-start: 10px;
+			margin-top:0px;
+		}
+			nav li {
+				display: inline;
+				margin: 0 15px;
+			}
+			nav li:first-child {
+				margin-left: 0;
+			}
+			nav a{
+				color:#bc23b8;
+				text-decoration:none;
+			}
+			
+				}
+				.hidden{display:none;}
+
+
+.block{
+padding: 20px 0px;
+//overflow:auto;
+}
+.width-small{
+padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+width: 800px;
+}
+main{
+margin:100px 0px;
+}
+h2{font-family: "Segoe Script";
+  color: #bc23b8;}
+  .description{color:#baa3b9;
+  font-family:"Candara";
+    font-size: x-large;
+	  text-align: center;}
+
+.left{float: left;
+  
+  }
+.right{
+float:right;
+}
+.center{text-align: center;}
+.clearfix{
+clear:both;
+}
+section nav{
+  font-family: Constantia;
+  text-align: center;
+  font-style:bold;
+  margin:10px;
+  color:#bc23b8;
+}
+.centered{text-align: center;}
+section nav span{border-radius: 4px;
+  border: 2px solid #bc23b8;
+  margin: 5px 10px;
+  height: 42px;
+  line-height: 42px;
+  display: inline-block;
+  background: #bc23b8;
+  color: white;
+  padding: 2px 3px;}
+  .links{
+	color: #baa3b9;
+  font-size: xx-large;
+  text-align: center;
+  margin: 20px;
+  font-family: fantasy;
+  
+  }
+  
+body {
+    
+    //width: 800px;
+}
+footer{
+background-color: #f0f0f0;
+//height:300px;
+width:100%;
+padding: 80px 0px;
+}
+footer nav{
+	
+	margin: 0px;
+}
+footer nav li{
+	display:block;
+}
+footer nav li:first-child {
+				margin:0 15px;
+				}
+.small-text{
+color: #727272; 
+}
+footer .description{
+	text-align:left;
+	//float:right;
+}
+
+    #W3DevCampusVideo {
+        width: 300px;
+        transition: all 0.5s ease-in-out;
+    }
+ 
+    #W3DevCampusVideo:hover {
+        width:400px;
+        transform:rotate(-5deg);
+    }
