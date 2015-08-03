@@ -1,2 +1,3 @@
 name: Heba Samy Portfolio
-	markdown: kramdown
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
