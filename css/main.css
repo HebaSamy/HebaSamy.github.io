@@ -1,52 +1,13 @@
-nav {
-			font-size: 1.5em;
-			margin: -80px 0px 0px;
-			font-family: Constantia;
-			padding:0px;
-			
-		}
-		nav ul{
-			-webkit-padding-start: 10px;
-			margin-top:0px;
-		}
-			nav li {
-				display: inline;
-				margin: 0 15px;
-			}
-			nav li:first-child {
-				margin-left: 0;
-			}
-			nav a{
-				color:#bc23b8;
-				text-decoration:none;
-			}
-			
-				}
-				.hidden{display:none;}
+{ margin: 0; padding: 0; }
 
-
-.block{
-padding: 20px 0px;
-//overflow:auto;
+html { 
+        background: url('x.jpg') no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+		background-color:#CCFFFF;
 }
-.width-small{
-padding-left: 0;
-    padding-right: 0;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-width: 800px;
-}
-main{
-margin:100px 0px;
-}
-h2{font-family: "Segoe Script";
-  color: #bc23b8;}
-  .description{color:#baa3b9;
-  font-family:"Candara";
-    font-size: x-large;
-	  text-align: center;}
-
 .left{float: left;
   
   }
@@ -57,66 +18,100 @@ float:right;
 .clearfix{
 clear:both;
 }
-section nav{
-  font-family: Constantia;
-  text-align: center;
-  font-style:bold;
-  margin:10px;
-  color:#bc23b8;
+body{
+	color:white;
+	font-family:tahoma;
+	margin: 0 auto;
+	width:940px;
+	height:600px;
 }
-.centered{text-align: center;}
-section nav span{border-radius: 4px;
-  border: 2px solid #bc23b8;
-  margin: 5px 10px;
-  height: 42px;
-  line-height: 42px;
-  display: inline-block;
-  background: #bc23b8;
-  color: white;
-  padding: 2px 3px;}
-  .links{
-	color: #baa3b9;
-  font-size: xx-large;
-  text-align: center;
-  margin: 20px;
-  font-family: fantasy;
-  
-  }
-  
-body {
-    
-    //width: 800px;
+body, header{margin-top:0px;}
+main{
+	padding:40px;
 }
-footer{
-background-color: #f0f0f0;
-//height:300px;
-width:100%;
-padding: 80px 0px;
-}
-footer nav{
-	
-	margin: 0px;
-}
-footer nav li{
-	display:block;
-}
-footer nav li:first-child {
-				margin:0 15px;
-				}
-.small-text{
-color: #727272; 
-}
-footer .description{
-	text-align:left;
-	//float:right;
+h1{
+	font-size:50px;
+	font-family:"forte";
 }
 
-    #W3DevCampusVideo {
-        width: 300px;
-        transition: all 0.5s ease-in-out;
-    }
- 
-    #W3DevCampusVideo:hover {
-        width:400px;
-        transform:rotate(-5deg);
-    }
+header ul li{
+padding-left:10px;
+height:100px;
+display:inline-block;
+}
+ul li {font-family:"tahoma";
+font-size:12px;
+color:white;
+display:inline;}
+#nav{margin-top:-30px;}
+header a{
+	        display: table-cell;
+    height: 100px;
+    border-radius: 10px;
+    vertical-align: BOTTOM;
+    padding-right: 20px;
+    text-decoration: none;
+    padding-bottom: 20px;
+    padding-left: 20px;}
+}
+
+a:link {
+    text-decoration: none;
+	color: white;
+}
+
+a:visited {
+    text-decoration: none;
+	color: white;
+}
+header img{margin-top:20px;
+			vertical-align:bottom;}
+			h2{font-family:"Coneria Script Demo";}
+header a:hover {
+    text-decoration: none;
+	color: white;
+	background-color:black;
+	opacity:0.4;
+
+}
+section{margin:40px;}
+description{margin:20px;}
+#links a:hover {
+    text-decoration: none;
+	color: white;
+	background:url("images/pink-f.png") no-repeat 50% 50%;
+}
+#links a{display: inline;
+    
+    padding:20px;
+	font-size:20px;
+	font-family:"Coneria Script Demo";
+	text-decoration:none;
+	}
+	#links ul{
+		height: 200px;
+		margin-top:20px;
+	}
+
+/*h2 span{color:#c64499;}*/
+a:active {
+    text-decoration: none;
+	color: white;
+}
+header img{
+	vertical-align:middle;
+}
+span{
+	color:yellow;
+}
+footer p{margin:10px;}
+footer{background-color:black;
+	opacity:0.7;
+	border-radius:10px;
+	padding:10px;
+	position: absolute;
+    bottom: 0;
+	width:920px;
+	margin-left:10px;
+	margin-bottom:10px;
+	}
