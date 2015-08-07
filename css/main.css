@@ -18,6 +18,7 @@ float:right;
 .clearfix{
 clear:both;
 }
+header img{margin-top:10px;}
 body{
 	color:white;
 	font-family:tahoma;
@@ -80,7 +81,7 @@ description{margin:20px;}
 #links a:hover {
     text-decoration: none;
 	color: white;
-	background:url("images/purble.png") no-repeat 50% 50%;
+	background:url("http://im83.gulfup.com/vC9E56.png") no-repeat 50% 50%;
 }
 #links a{display: inline;
     
