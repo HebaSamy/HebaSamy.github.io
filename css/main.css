@@ -1,59 +1,59 @@
 { margin: 0; padding: 0; }
 
 html { 
-        background: url(http://im58.gulfup.com/2b6LSs.jpg) no-repeat center center fixed; 
+        background: url("http://im48.gulfup.com/8SOlVE.jpg") no-repeat center center fixed; 
+		
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
 		background-color:#CCFFFF;
-}
-.left{float: left;
-  
-  }
-.right{
-float:right;
+		font-family:arial;
 }
 .center{text-align: center;}
 .clearfix{
 clear:both;
 }
-header img{margin-top:10px;}
 body{
+	margin:0 auto;
+	width:900px;
 	color:white;
-	font-family:tahoma;
-	margin: 0 auto;
-	width:940px;
-	height:600px;
 }
 body, header{margin-top:0px;}
 main{
-	padding:40px;
+	padding-top:40px;
+	display:table-cell;
+	vertical-align:middle;font-size:20px;
+	height:100%;
 }
+section{ width:70%;
+padding-left:50px;}
 h1{
-	font-size:50px;
-	font-family:"forte";
+	font-size:30px;
+	font-family:arial;
 }
-
-header ul li{
-padding-left:10px;
-height:100px;
-display:inline-block;
+ul{
+	padding-top:200px;
+	display:table;}
+ul li {
+font-size:25px;
+padding:100px;
+display:inline;
 }
-ul li {font-family:"tahoma";
-font-size:16px;
-color:white;
-display:inline;}
-#nav{margin-top:-30px;}
-header a{
-	        display: table-cell;
-    height: 100px;
-    border-radius: 20px;
-    vertical-align: BOTTOM;
-    padding-right: 10px;
-    text-decoration: none;
-    padding-bottom: 20px;
-    padding-left: 10px;}
+h1,a{text-shadow: 1px 0px 0px gray;
+text-shadow-blend-mode: multiply;
+}
+a{
+	padding-top:170px;
+}
+ul li:nth-child(1) a{
+	background:url("http://im48.gulfup.com/OmVeZL.png") no-repeat center center;
+}
+ul li:nth-child(2) a{
+	background:url("http://im48.gulfup.com/AoIb58.png") no-repeat center center;
+}
+ul li:nth-child(3) a{
+	background:url("http://im48.gulfup.com/KUuo6R.png") no-repeat center center;
 }
 
 a:link {
@@ -65,61 +65,18 @@ a:visited {
     text-decoration: none;
 	color: white;
 }
-header img{margin-top:20px;
-			vertical-align:bottom;}
-			h2{font-family:"Coneria Script Demo";}
-header a:hover {
-    text-decoration: none;
-	color: white;
-	background-color:black;
-	opacity:0.4;
-
-}
-section{margin:40px;
-margin-top:120px;}
-description{margin:20px;}
-#links a:hover {
-    text-decoration: none;
-	color: white;
-	background:url("http://im83.gulfup.com/vC9E56.png") no-repeat 50% 50%;
-}
-#links a{display: inline;
-    
-    padding:20px;
-	padding-bottom:60px;
-	padding-top:60px;
-	font-size:40px;
-	font-family:fantasy;
-	text-decoration:none;
-	}
-	#links ul{
-		margin-top:20px;
-	}
-
 /*h2 span{color:#c64499;}*/
 a:active {
     text-decoration: none;
 	color: white;
 }
-header img{
-	vertical-align:middle;
-}
-span{
-	color:yellow;
-}
-footer p{margin:10px;}
-footer{background-color:black;
-	opacity:0.7;
+footer{background:rgba(255, 255, 255, .2);
 	border-radius:5px;
 	padding:10px;
-	padding-top:20px;
-	padding-bottom:20px;
 	position: absolute;
+	width:900px;
     bottom: 0;
-	width:920px;
 	margin-left:10px;
 	margin-bottom:10px;
-	color:#0ABEF9;
 	}
-	footer span{color:white;}
 	
