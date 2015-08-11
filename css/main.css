@@ -1,7 +1,7 @@
 { margin: 0; padding: 0; }
 
 html { 
-        background: url("images/original2.jpg") no-repeat center center fixed; 
+        background: url("http://im77.gulfup.com/gn7miZ.jpg") no-repeat center center fixed; 
 		
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -64,13 +64,13 @@ a{
 	padding-top:170px;
 }
 ul li:nth-child(1) a{
-	background:url("images/about.png") no-repeat center center;
+	background:url("http://im77.gulfup.com/hgWAh7.png") no-repeat center center;
 }
 ul li:nth-child(2) a{
-	background:url("images/port.png") no-repeat center center;
+	background:url("http://im77.gulfup.com/K1Dhc5.png") no-repeat center center;
 }
 ul li:nth-child(3) a{
-	background:url("images/contact.png") no-repeat center center;
+	background:url("http://im77.gulfup.com/BX6mlI.png") no-repeat center center;
 }
 
 a:link {
